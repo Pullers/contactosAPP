@@ -17,38 +17,32 @@
   <div class="row">
      <div class="col-sm-3">
       <h3>Lunes </h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <p>evento 1</p>
+     
     </div>
     <div class="col-sm-3">
       <h3>Martes </h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <p>evento 1</p>
     </div>
     <div class="col-sm-3">
       <h3>Miercoles</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <p>evento 1</p>
     </div>
 	 <div class="col-sm-3">
       <h3>Jueves</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+     <p>evento 1</p>
     </div>
     <div class="col-sm-3">
       <h3>Viernes</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      
     </div>
     <div class="col-sm-3">
       <h3>Sabado</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      
     </div>
 	  <div class="col-sm-3">
       <h3>Domingo</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      
     </div>
   </div>
 </div>
