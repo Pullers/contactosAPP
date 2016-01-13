@@ -8,7 +8,7 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <body>
-
+<!-- falta hacer un paner que lo englobe i lo de los dias -->
 <div class="container">
   <div class="jumbotron">
     <h1>Agenda de Eventos</h1>
