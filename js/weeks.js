@@ -24,6 +24,20 @@ window.onload = function(){
         for(var i = 0; i<7; i++){
             dia[i].innerHTML = week[i].getDate() +" de "+ monthNames[week[i].getMonth()] +" de " + week[i].getFullYear(); 
         }
+        var weekJSON = toJSON(week);
+        $.ajax({
+            type: "POST",
+            dataType: "json",
+            url: "",
+            data: {myData:weekJSON},
+            contentType: "application/json; charset=utf-8",
+            success: function(data){
+                alert('Items added');
+            },
+            error: function(e){
+                console.log(e.message);
+            }
+        });
     }
 
     function nextWeek(day){
@@ -36,6 +50,10 @@ window.onload = function(){
         var today = day;
         var previousweek = new Date(today.getFullYear(), today.getMonth(), today.getDate()-7);
         return previousweek;
+    }
+
+    function toJSON(week){
+      return JSON.stringify(week);
     }
 
     printWeek(week);
