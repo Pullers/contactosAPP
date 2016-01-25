@@ -29,7 +29,7 @@
 		</div>
 		<div class="col-sm-3 text-center">
 			<div class="panel panel-warning">
-				<div class="panel-heading"> <h3>Martes</h3> <h3 class="dia">2</h3> </div>
+				<div class="panel-heading"> <h3>Martes</h3> <h4 class="dia">2</h4> </div>
 				<div class="panel-body">
 					<p>evento 2</p>
 				</div>
@@ -37,7 +37,7 @@
 		</div>
 		<div class="col-sm-3 text-center">
 			<div class="panel panel-warning">
-				<div class="panel-heading">  <h3>Miercoles</h3> <h3 class="dia">3</h3></div>
+				<div class="panel-heading">  <h3>Miercoles</h3> <h4 class="dia">3</h4></div>
 				<div class="panel-body">
 					<p>evento 1</p>
 				</div>
@@ -45,7 +45,7 @@
 		</div>
 		<div class="col-sm-3 text-center">
 			<div class="panel panel-warning">
-				<div class="panel-heading">  <h3>Jueves</h3><h3 class="dia">4</h3>    </div>
+				<div class="panel-heading">  <h3>Jueves</h3><h4 class="dia">4</h4>    </div>
 				<div class="panel-body">
 					<p>evento 1</p>
 				</div>
@@ -54,7 +54,7 @@
 		<div class="col-sm-3 text-center">
 			<div class="panel panel-warning">
 				<div class="panel-heading"> 
-					<h3 id="diaviernes">Viernes</h3> <h3 class="dia">5</h3>
+					<h3 id="diaviernes">Viernes</h3> <h4 class="dia">5</h4>
 				</div>
 				<div class="panel-body">
 					<p>evento 1</p>
@@ -63,7 +63,7 @@
 		</div>
 		<div class="col-sm-3 text-center">
 		<div class="panel panel-warning">
-				<div class="panel-heading">  <h3>Sabado</h3><h3 class="dia">6</h3>     </div>
+				<div class="panel-heading">  <h3>Sabado</h3><h4 class="dia">6</h4>     </div>
 				<div class="panel-body">
 					<p>evento 1</p>
 				</div>
@@ -71,7 +71,7 @@
 		</div>
 		<div class="col-sm-3 text-center">
 		<div class="panel panel-warning">
-				<div class="panel-heading">  <h3>Domingo</h3><h3 class="dia">7</h3>     </div>
+				<div class="panel-heading">  <h3>Domingo</h3><h4 class="dia">7</h4>     </div>
 				<div class="panel-body">
 					<p>evento 1</p>
 				</div>
