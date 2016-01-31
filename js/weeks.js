@@ -25,10 +25,22 @@ window.onload = function(){
             dia[i].innerHTML = week[i].getDate() +" de "+ monthNames[week[i].getMonth()] +" de " + week[i].getFullYear(); 
         }
         var weekJSON = toJSON(week);
+
+	
+	   
+		$.ajax({
+		  method: "POST",
+		  url: "index2.php",
+		  data: { id: 1, location: "Boston" }
+		})
+		  .done(function( data ) {
+			alert( "Data Saved: " + data['id'] );
+		  });
+	/*
         $.ajax({
             type: "POST",
             dataType: "json",
-            url: "",
+            url: "index2.php",
             data: {myData:weekJSON},
             contentType: "application/json; charset=utf-8",
             success: function(data){
@@ -37,7 +49,7 @@ window.onload = function(){
             error: function(e){
                 console.log(e.message);
             }
-        });
+        });*/
     }
 
     function nextWeek(day){
