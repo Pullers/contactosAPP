@@ -35,14 +35,9 @@
 				<div class="panel-body">
 					<p>
 					<?php
-<<<<<<< HEAD
+
 					if(!empty($result)){
-=======
-<<<<<<< HEAD
-					if(!empty($result)){
-=======
->>>>>>> origin/master
->>>>>>> origin/master
+
 						// Imprimir los resultados en HTML
 						echo "<table>\n";
 						while ($line = mysql_fetch_array($result, MYSQL_NUM)) {
@@ -59,18 +54,10 @@
 
 						// Cerrar la conexión
 						mysql_close($link);
-<<<<<<< HEAD
+	
 					}else{
 						echo "Evento x del dia x usando php"; 
 					}
-=======
-<<<<<<< HEAD
-					}else{
-						echo "Evento x del dia x usando php"; 
-					}
-=======
->>>>>>> origin/master
->>>>>>> origin/master
 					?>
 					
 					</p>
@@ -131,24 +118,12 @@
 	</div>
 	<button type="button" class="btn btn-success center-block">Semana Anterior</button><button type="button" class="btn btn-danger center-block">Semana Siguiente</button>
 	</div>
-	
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> origin/master
-	<div>
+
 		<?php
 			echo "<h4> Mensaje generado por PHP:</h4>";
 			echo "<h2> Esto es una demo de una aplicación que se encargaría de almacenar información de eventos y poder consultarlos por dia y por semana </h2>";
 		?>
 	</div>
-<<<<<<< HEAD
-=======
-=======
-		
->>>>>>> origin/master
->>>>>>> origin/master
-		
 
 </div>
 
